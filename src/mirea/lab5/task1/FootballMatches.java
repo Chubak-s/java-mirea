@@ -19,7 +19,7 @@ public class FootballMatches extends JFrame {
 
     public FootballMatches() {
         super("Football Match");
-        this.setBounds(100, 100, 200, 150);
+        this.setBounds(600, 300, 200, 150);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container container = this.getContentPane();
         container.setLayout(new GridLayout(5, 2, 2, 2));
@@ -27,7 +27,6 @@ public class FootballMatches extends JFrame {
         resultLabel = new JLabel("Result: 0 X 0");
         lastScorerLabel = new JLabel("Last Scorer: N/A");
         winnerLabel = new JLabel("Winner: DRAW");
-        ButtonGroup group = new ButtonGroup();
 
         resultLabel.setVerticalAlignment(JLabel.TOP);
         resultLabel.setHorizontalAlignment(JLabel.CENTER);
