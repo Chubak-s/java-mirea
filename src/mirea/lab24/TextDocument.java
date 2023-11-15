@@ -11,9 +11,4 @@ public class TextDocument implements IDocument {
     public void save() {
         System.out.println("Сохранение текстового документа");
     }
-
-    // Дополнительные методы для работы с текстовым документом
-    public void editText() {
-        System.out.println("Редактирование текстового документа");
-    }
 }

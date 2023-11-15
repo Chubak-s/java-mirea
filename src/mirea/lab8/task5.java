@@ -12,7 +12,7 @@ public class task5 {
         System.out.println(sumX);
     }
 
-    private static int sumOfX(int num) {
+    public static int sumOfX(int num) {
         if(num == 0) return 0;
         return num % 10 + sumOfX(num / 10);
     }
